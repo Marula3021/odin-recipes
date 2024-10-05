@@ -1,29 +1,89 @@
 *{
     borde: 1px solid blue;
+    box-sizing: border-box;
     
 }
+
 body{
-    width: 800px;
-    height: 1500px;
+    width: 1920px;
+    height: 5000px;
     margin: 0 auto;
-    margin-top: 30px;
     font-family: Inter, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #ffe6d45a;;
+}
+
+.discount{
+    background-color: #01404e;
+    padding: 20px 50px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 60px;
+    text-align: center;
     box-sizing: border-box;
-    background-colo: antiquewhite;
+}
+
+p{
+    color: #01404e;
+    font-size: 18px;
+    
+}
+.navigator{
+    border-bottom: solid 1px sienna;
+    width: 100%;
+    
+}
+.search input[type=text] {
+    padding: 7px;
+    font-size: 17px;
+    border: 1px solid sienna;
+    display: inline-block;
+    width: 20%;
+    background: #ffffff;
+    border-radius: 6px;
+  }
+
+  form {
+    display: inline;
+    margin-left: 100px;
+  }
+
+
+.up{
+    color: #01404e;
+    margin-left: 50px;
+    margin-right: -40px;
+    margin-top: 50px;
+    border-radius: 8px;
+    border: solid 1px #01404e;
+    background-color: #ffffff;
+    color: #01404e;
+    padding: 10px;
+    font-weight: bold;
+    text-decoration-line: none;
+
+}
+.up:hover{
+    color: #01404ecb;
+}
+
+.title{
+    color: #01404e;
+    margin-left: 10px;
+    font-size: 26px;
+    font-weight: 950;
 }
 
 .container {
-    width: auto;
     height: 50px;
-    border-bottom: 2px solid rgb(0, 0, 0);
-    display: inline-block;
-
+    width: 80%;
+    margin-left: auto;
 }
 .inside {
     padding: 10px;
     margin: 3px;
-    width: 700px;
+    width: 1350px;
     height: 40px;
+    box-sizing: border-box;
 }
 .button{
     width: 150px;
@@ -31,16 +91,17 @@ body{
     margin: 0px 15px 0px 0px;
     text-decoration: none;
     border-bottom: 2px;
-    font-size: 15px ;
+    font-size: 20px ;
     font-weight: bold;
-    color: rgb(0, 0, 0);
+    color:#01404e;
 }
 .button:hover{
 
-    color: rgb(237, 130, 64);
+    color:#01404ecb;
+
 }
-.card4 {
-    color: black;
+.card {
+    color: #01404e;
 
 }
 
@@ -53,33 +114,42 @@ body{
 
 
 #title{
-    font-size: 40px ;
+    font-size: 60px ;
     font-weight: bold;
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
     padding: 20px 0px;
+    width: 100%;
+    color: #01404e;
+    font-weight: 1000;
 }
 .intro{
     padding-top: 20px;
     padding-left: 10px;
     display: block;
     text-align: justify;
-    width: 700px;
+    width: 100%;
 }
 .sign {
-    margin-left: 100px;
+    margin-left: 50px;
+    margin-right: -40px;
     margin-top: 50px;
-    border-radius: 10px;
-    background-color: salmon;
-    color: white;
+    border-radius: 8px;
+    background-color: #01404e;
+    color: #ffffff;
     padding: 10px;
+    font-weight: bold;
+    text-decoration-line: none;
 }
 .sign:hover{
-    background-color: saddlebrown;
+    background-color:#01404ecb;
+    
+   
 }
 .trending{
     padding-top: 20px;
     padding-left: 10px;
+    width: 100%;
 }
 
 .trend{
@@ -97,20 +167,30 @@ img{
     margin: 10px;
 }
 .header{
-    color: saddlebrown;
+    color: sienna;
     font-size: 20px;
-    font-weight: bold;
+    font-weight: 900;
+    display: block;
 }
 .text{
     padding-top: 10px;
-    display: block;
+    display: inline-block;
     font-weight: bolder;
     font-size: 17px;
    
 }
 
-.trend .card:hover {
-    text-decoration: underline saddlebrown;
+.trend:hover {
+    text-decoration: underline sienna;
     text-underline-offset: 4px;
     text-decoration-thickness: 2px
+}
+.wrap{
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    margin-top: 30px;
+}
+.advices{
+    width: 100%;
 }
